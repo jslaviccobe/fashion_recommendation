@@ -6,22 +6,6 @@ This project implements a chatbot that provides fashion recommendations based on
 
 ## Setup
 
-### Dependencies
-
-This project requires the following dependencies:
-
-- `python-dotenv`
-- `pandas`
-- `langchain`
-- `langchain_openai`
-- `faiss-cpu`
-
-You can install these dependencies by running:
-
-```
-pip3 install python-dotenv pandas langchain langchain_openai faiss-cpu
-```
-
 ### Configuration
 
 1. **OpenAI API Key**: You need an OpenAI API key to use this project. If you don't have one, you can obtain it by signing up at [OpenAI](https://openai.com/).
@@ -30,6 +14,26 @@ pip3 install python-dotenv pandas langchain langchain_openai faiss-cpu
 
 ```
 OPENAI_API_KEY=YOUR_API_KEY
+```
+
+### Installation
+
+1. **Create a virtual environment:**
+
+```
+python3 -m venv .venv
+```
+
+2. **Activate the virtual environment:**
+
+```
+source .venv/bin/activate
+```
+
+3. **Install dependencies:**
+
+```
+pip3 install -r requirements.txt
 ```
 
 ## Running the Program
